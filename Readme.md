@@ -35,29 +35,28 @@ Dell Inspiron 15 5558 Hackintosh working OpenCore 0.7.9 EFI with macOS Monterey 
 - Realtek SD Card Reader Fixed
 - Realtek Ethernet Fixed
 
-# Specification:
+# Specification of the current system:
 
 - **MainBoard:** Dell Inspiron 15 5558.
-- **Processor:** Intel Core i3-5500U @ 2.70GHz (Broadwell)
-- **RAM:** 8GB DDR3 1600mhz (Duel channel)
-- **Graphic:** 
-  + Intel HD5500
-  + NVIDIA GeForce 920M 2GB
+- **Processor:** Intel Core i3-4005U @ 1.70GHz (Haswell)
+- **RAM:** 4GB DDR3 1600mhz (Dual Channel)
+- **Graphics:** 
+  + Intel HD4400
+  + NVIDIA GeForce 920M 2GB (not present in my model)
 - **Network:**
-  + **Wifi:** Dell DW1820A
+  + **Wifi:** Intel(R) Dual Band Wireless-AC 3160
   + **Ethernet:** Realtek RTL810xE
 - **Audio:** Realtek ALC255 (layout-29)
 - **Touchpad:** ELAN 1100 (I2C)
 - **SD Card Reader** Realtek RTS5286
-- **Storage**: 240GB SSD, 1TB HDD
+- **Storage**: 500GB HDD, ODD
 
 # WORKING:
 - [x] Power Management
-- [x] Intel HD Graphics 5500
+- [x] Intel HD Graphics 4400
 - [x] Sound
 - [x] Mic
 - [x] Wifi
-- [x] Bluetooth
 - [x] SD Card Reader
 - [x] Ethernet
 - [x] Adjust brightness 
@@ -72,7 +71,7 @@ Dell Inspiron 15 5558 Hackintosh working OpenCore 0.7.9 EFI with macOS Monterey 
 
 # Not WORKING:
 - [ ] Nvidia 920M GPU   **(will never work)**
-
+- [ ] Bluetooth
 
 # BIOS Settings:
 - No need to change any BIOS settings. Set default BIOS settings.
@@ -88,6 +87,7 @@ Dell Inspiron 15 5558 Hackintosh working OpenCore 0.7.9 EFI with macOS Monterey 
 
 # Bluetooth fix:
 ̶-̶ T̶o̶ ̶t̶o̶g̶g̶l̶e̶ ̶o̶n̶/̶o̶f̶f̶ ̶b̶l̶u̶e̶t̶o̶o̶t̶h̶,̶ ̶y̶o̶u̶ ̶h̶a̶v̶e̶ ̶t̶o̶ ̶s̶w̶i̶c̶h̶o̶f̶f̶ ̶y̶o̶u̶r̶ ̶w̶i̶f̶i̶ ̶t̶e̶m̶p̶o̶r̶a̶r̶y̶.̶
+Currently Bluetooth is unavailable when fixing Intel WiFi Card
 
 ̶# SSD Fix:
 - If you use SSD then you have to enable TRIM Support for better performance.
