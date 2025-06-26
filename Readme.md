@@ -10,10 +10,10 @@ Dell Inspiron 15 5558 Hackintosh working OpenCore 1.0.4 EFI with macOS Monterey 
 ### Update:
 - OpenCore Update 0.7.9 to 1.0.4
 
-### Uptade:
-- Opencore Update 0.7.1 to 0.7.9
+### Updade:
+- OpenCore Update 0.7.1 to 0.7.9
 - Other Kext uptade
-- Bluetooh fix.
+- Bluetooh  ̶f̶i̶x̶. broken
 - Wifi 5 GHZ fix.
 - Add Windows 11 Pro with BootCamp
 
