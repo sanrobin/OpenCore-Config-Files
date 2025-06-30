@@ -1,16 +1,19 @@
 # Dell Inspiron 15 5558-Hackintosh-OpenCore
-Dell Inspiron 15 5558 Hackintosh working OpenCore 0.7.9 EFI with macOS Monterey 12.2 with BootCamp Windows 11 Pro
+Dell Inspiron 15 5558 Hackintosh working OpenCore 1.0.4 EFI with macOS Monterey 12.2 with BootCamp Windows 11 Pro
 
 # Dell Inspiron 15 5558
-- **Bootloader:** OpenCore 0.7.9
+- **Bootloader:** OpenCore 1.0.4
 - **macOS:** 12.2.1 Monterey
 
 # Changelog
 
-### Uptade:
-- Opencore Update 0.7.1 to 0.7.9
+### Update:
+- OpenCore Update 0.7.9 to 1.0.4
+
+### Updade:
+- OpenCore Update 0.7.1 to 0.7.9
 - Other Kext uptade
-- Bluetooh fix.
+- Bluetooh  ̶f̶i̶x̶. broken
 - Wifi 5 GHZ fix.
 - Add Windows 11 Pro with BootCamp
 
@@ -39,7 +42,7 @@ Dell Inspiron 15 5558 Hackintosh working OpenCore 0.7.9 EFI with macOS Monterey 
 
 - **MainBoard:** Dell Inspiron 15 5558.
 - **Processor:** Intel Core i3-4005U @ 1.70GHz (Haswell)
-- **RAM:** 4GB DDR3 1600mhz (Dual Channel)
+- **RAM:** 8GB DDR3 1600mhz (Dual Channel) (Upgraded RAM from 4GB)
 - **Graphics:** 
   + Intel HD4400
   + NVIDIA GeForce 920M 2GB (not present in my model)
